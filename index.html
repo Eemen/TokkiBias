@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TOKKIBIAS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <img src="bunni2.png" alt="" class="bunni bunni-left" />
+    <div class="container">
+      <h1 class="site-title">TOKKIBIAS</h1>
+      <!-- Starter Message -->
+      <div id="starter-message" class="message-card">
+        <div class="message-content">
+          <!-- Content will be loaded from startermsg.md -->
+        </div>
+        <div class="button-container">
+          <button class="next-button">Next💚</button>
+        </div>
+      </div>
+
+      <!-- Quiz Section -->
+      <div id="quiz-section" class="hidden">
+        <div class="question-card">
+          <div class="question-content">
+            <h2 id="question-text"></h2>
+            <div id="options-container"></div>
+          </div>
+          <div class="progress-bar">
+            <div class="progress"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Results Section -->
+      <div id="results-section" class="hidden">
+        <div class="results-card">
+          <h2>Your Bias Results</h2>
+          <div id="scores-container"></div>
+          <div id="bias-description"></div>
+          <div class="button-container">
+            <button class="try-again-button">Try Again💚</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="bunni1.png" alt="" class="bunni bunni-right" />
+    <script src="script.js"></script>
+  </body>
+</html>
